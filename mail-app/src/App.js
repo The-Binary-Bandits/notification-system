@@ -1,8 +1,10 @@
+import Priority from "./Priority";
+
 function App() {
 	return (
-		<>
-			<h1 className="font-bold text-lg justify-center">Mail App</h1>
-		</>
+		<div className="scroll-smooth overflow-x-hidden">
+			<Priority />
+		</div>
 	);
 }
 
