@@ -7,14 +7,12 @@ import Priority from "./Priority";
 function App() {
 	return (
 		<>
-			<h1 className="font-bold text-lg justify-center">Mail App</h1>
 			<Header/>
-			<Main/>
-			<Footer/>
-
+			<h1 className="font-bold text-lg text-center justify-center">Mail App</h1>
 			<div className="scroll-smooth overflow-x-hidden">
 				<Priority />
 			</div>
+			<Footer/>
 
 		</>
 	);
