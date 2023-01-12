@@ -1,6 +1,8 @@
 import Header from "./components/Header/Header";
 import Main from "./components/main/Main";
 import Footer from "./components/Footer/Footer"
+import Priority from "./Priority";
+
 
 function App() {
 	return (
@@ -9,6 +11,11 @@ function App() {
 			<Header/>
 			<Main/>
 			<Footer/>
+
+			<div className="scroll-smooth overflow-x-hidden">
+				<Priority />
+			</div>
+
 		</>
 	);
 }
